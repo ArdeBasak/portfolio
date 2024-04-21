@@ -3,14 +3,23 @@ import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Skeleton from "react-loading-skeleton";
 import axios from "axios";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const ProjectCard = ({ value }) => {
-  const { name, description, svn_url, languages_url } = value;
+  console.log("value : " + value.homepage);
+  const { name, description, svn_url, languages_url, homepage } = value;
   return (
     <Col md={6}>
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
-          <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
+          <div className="d-flex justify-content-between align-items-center">
+            <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
+            {homepage && (
+              <a href={homepage} target="_blank" rel="noopener noreferrer">
+                <FaExternalLinkAlt />
+              </a>
+            )}
+          </div>
           <Card.Text>
             {!description ? "" : description || <Skeleton count={3} />}{" "}
           </Card.Text>
