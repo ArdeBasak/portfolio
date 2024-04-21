@@ -146,38 +146,3 @@ code {
 .cursor-pointer {
   cursor: pointer;
 }
-
-.education-container {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.education-row {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
-}
-
-.education-class,
-.education-school,
-.education-percentage,
-.education-year {
-  flex: 1;
-  padding: 5px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.education-class {
-  background-color: #f0f0f0;
-}
-
-.education-school {
-  background-color: #e0e0e0;
-}
-
-.education-percentage,
-.education-year {
-  background-color: #d0d0d0;
-}
