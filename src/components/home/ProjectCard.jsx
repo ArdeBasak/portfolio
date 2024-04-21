@@ -16,7 +16,7 @@ const ProjectCard = ({ value }) => {
             <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
             {homepage && (
               <a href={homepage} target="_blank" rel="noopener noreferrer">
-                <FaExternalLinkAlt />
+                <FaExternalLinkAlt color="black" />
               </a>
             )}
           </div>
