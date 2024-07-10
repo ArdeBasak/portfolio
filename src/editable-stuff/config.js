@@ -35,7 +35,7 @@ const about = {
     "When I'm not busy crafting lines of code, you can find me exploring video games, sketching out fantastical landscapes, weaving new tales or embarking on culinary adventures in search of the perfect dish. Whether it's optimizing algorithms or perfecting my pasta recipe, I'm always up for a challenge and eager to dive into the next big adventure.",
     "So, if you're in need of a tech-savvy guy with a penchant for creativity and a knack for problem-solving, look no further! Let's connect and create some magic together.",
   ],
-  resume: require("../assets/pdf/ArpanBasak_Resume.pdf"),
+  resume: require("../assets/pdf/ArpanBasak_Resume_2024.pdf"),
 };
 
 // PROJECTS SECTION
@@ -87,12 +87,9 @@ const experiences = {
       companylogo: require("../assets/img/sixt_logo.png"),
       date: "Aug 2022 – Present",
       details: [
-        "Conducted high level API spec design and development for multiple epics from scratch, enhancing the functionalities in the Damage team.",
-        "Developed seamless frontend interfaces for multiple tasks handling by Damage agents, leading to quicker claims processing by 70%.",
-        "Integrated with image capture via Proovstation gates, from scratch and automated damage workflow management, improving successful claims by 45%.",
-        "Migrated our Backend services to latest Java 18, Spring 6 and Spring Boot 3.",
-        "Modularized and refactored our existing codebases using best design practices.",
-        "Increased test coverage from 40% to 90% across services.",
+        "Developed seamless frontend interfaces for multiple tasks handling by Damage agents, leading to quicker claims processing.",
+        "Designed GenAI solution integration via Azure OpenAI API for classification of Invoice Complaints.",
+        "Integrated with image capture via Proovstation gates, from scratch and automated damage workflow management.",
       ],
     },
     {
