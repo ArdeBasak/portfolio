@@ -9,3 +9,4 @@ This assumes you already have Node.js installed on your machine.
 1. Run `npm install`.
 1. Run `npm start`.
 1. Open your browser on `http://localhost:3000/portfolio/`.
+1. Run `npm run deploy` to conduct deployment on github-pages.
